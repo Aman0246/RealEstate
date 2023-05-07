@@ -1,0 +1,56 @@
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+
+}
+.hero-title  h1{
+    font-size: 3rem;
+}
+.Orange{
+    left: 25%;
+    height: 4rem;
+    width: 4rem;
+    background-color: orange;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+
+}
+.hero-title{
+    z-index: 1;
+}
+.Search-bar{
+    background-color: white;
+    padding: .8rem;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.Search-bar input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.status {
+    color: aliceblue;
+  
+}
+.count{
+    font-size:2rem;
+}
+.plus{
+    font-size:1.3rem;
+    font-weight: bold;
+    color: orange;
+}
+.StatusBar{
+    display: flex;
+    gap: 1.5rem;
+}

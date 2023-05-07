@@ -1,0 +1,31 @@
+.hero-wrapper {
+  background-color: #0a1734;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+.hero-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+.hero-right {
+  display: flex;
+  /* background-color: antiquewhite; */
+  width: 50%;
+  justify-content: center;
+}
+.image-container img {
+  overflow: hidden;
+  border-radius: 15rem 15rem 0rem 0rem;
+  width: 25rem;
+  height: 30rem;
+  border: none;
+  margin-top: 1rem;
+}
+.hero-left {
+  /* background-color: aqua; */
+  width: 50%;
+}
