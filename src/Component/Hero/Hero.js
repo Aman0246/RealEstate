@@ -33,17 +33,17 @@ export default function Hero() {
           </div>
           <div className="StatusBar">
         <div className="status">
-          <span className="count"><CountUp start={3000} end={800} duration={20}></CountUp>
+          <span className="count"><CountUp start={3000} end={4000} duration={5}></CountUp>
           </span><span className="plus">+</span><br />
           <span>Premium Products</span>
         </div>
         <div className="status">
-          <span className="count"><CountUp start={100} end={500} duration={20}></CountUp>
+          <span className="count"><CountUp start={1000} end={5000} duration={7}></CountUp>
           </span><span className="plus">+</span><br />
           <span>Happy Custmor</span>
         </div>
         <div className="status">
-          <span className="count"><CountUp start={1} end={10} duration={9}></CountUp>
+          <span className="count"><CountUp start={1} end={10} duration={6}></CountUp>
           </span><span className="plus">+</span><br />
           <span>Award Winning</span>
         </div>

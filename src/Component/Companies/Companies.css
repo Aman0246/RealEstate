@@ -1,0 +1,30 @@
+.c-wrapper{
+   background-color: #0a1734;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.c-container{
+    display: flex;
+    width: 65%;
+    background-color: #0a1734;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.blur{
+    position: absolute;
+    width: 10rem;
+    height: 7rem;
+    background-color: aliceblue;
+    filter: blur(101px);
+    right: 27%;
+    border-radius: 50%;
+}
+.hr{
+    margin-top: 1rem;
+    background-color: #e2e5ed;
+    width: 80%;
+    height: 1px;
+    position: absolute;
+}
