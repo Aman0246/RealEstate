@@ -30,3 +30,6 @@ code {
   transform: scale(1.1);
 font-size: 300;
 }
+.wrapper{
+  background-color: #0a1734;
+}
